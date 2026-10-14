@@ -1,0 +1,22 @@
+# Real credentials - share config.example.php instead
+config.php
+
+# Composer dependencies (run `composer install`)
+/vendor/
+
+# Editor and OS leftovers
+*.swp
+*.save
+*.save.*
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archives, dumps and logs (may contain student data)
+*.zip
+*.mem
+*.log
+*.sql
+!schema.sql

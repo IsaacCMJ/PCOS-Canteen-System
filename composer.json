@@ -1,0 +1,19 @@
+{
+    "name": "pcos/canteen",
+    "description": "Pui Ching Ordering System (PCOS) - a school canteen meal pre-ordering web app",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "ext-mysqli": "*",
+        "google/apiclient": "^2.11",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "scripts": {
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Oauth2"
+        ]
+    }
+}
